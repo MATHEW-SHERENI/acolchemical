@@ -85,6 +85,12 @@ nav a:hover {
             justify-content: space-evenly;
             
         }
+        @media (max-width: 768px) {
+    #product-division .product {
+        flex: 0 0 100%;
+    }
+}
+
 
         .product {
             flex: 25%;
@@ -110,10 +116,22 @@ nav a:hover {
             padding:  0;
         }
 
-        @media (max-width: 768px) {
-            .product {
-                flex: 0 0 100%;
-            }
+       @media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav li {
+        margin: 10px 0;
+    }
+}
+
 
             
 
@@ -137,6 +155,12 @@ nav a:hover {
     background-color: blue;
     color: #000;
 }
+        @media (max-width: 768px) {
+    .service {
+        flex: 0 0 100%;
+    }
+}
+
 
 .service h2 {
     font-weight: bold;

@@ -22,7 +22,7 @@
 
 .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: right;
 }
 
@@ -90,11 +90,11 @@ nav a:hover {
         }
 
         .product {
-            flex: 0 0 15%;
+            flex: 25%;
             margin-bottom: 20px;
-            padding: 20px;
+            padding: 0px;
             background-color: #f5f5f5;
-            border-radius: 8px;
+            border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             box-sizing: border-box;
             transition: transform 0.3s;
@@ -134,7 +134,7 @@ nav a:hover {
 
         
 #services {
-    text-align: center;
+    text-align: left;
     background-color: blue;
     color: #000;
 }
@@ -154,11 +154,11 @@ nav a:hover {
 }
 
 .service {
-    flex: 25%;
+    flex: 35%;
     margin: 0;
     padding: 0;
     background-color: #e6e6ee;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 1.5s;
 }

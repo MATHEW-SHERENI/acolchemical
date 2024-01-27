@@ -91,20 +91,15 @@ nav a:hover {
     }
 }
 
-
-        .product {
-            flex: 100%;
-            margin-bottom: 20px;
-            padding: 0px;
-            marging:0px;
-            background-color: #f5f5f5;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            box-sizing: border-box;
-            text-align: left;
-             transition: transform 0.9s;
-        
-        }
+.product {
+    flex: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: greenyellow;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.9s;
+}
 
         .product:hover {
             transform: scale(0.5);
@@ -313,6 +308,16 @@ a:hover {
     display: inline-block;
     text-decoration: none;
 }
+         @media only screen and (max-width: 600px) {
+            h2 {
+                font-size: 1.5em;
+            }
+        }
+          .container, .product-info, .services-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
 
 
 
@@ -326,7 +331,6 @@ a:hover {
             <h1>Acol Chemical Holdings</h1>
             <nav>
                 <ul>
-                    <li><a href="#about">About Us</a></li>
                     <li><a href="#contact">Contact Us</a></li>
                     <li><a href="#services">Services</a></li>
                     <li><a href="#product-division">product-division</a></li>

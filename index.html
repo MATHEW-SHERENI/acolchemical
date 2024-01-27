@@ -78,16 +78,17 @@ nav a:hover {
             padding: 0px;
         }
 
-        #product-division {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-evenly;
-            
-        }
-        @media (max-width: 768px) {
-    product-division .product {
-        flex: 0 0 100%;
-    }
+    #product-division {
+    text-align: center;
+     background-color: azure;
+    color: black;
+    width: 100%;
+}
+
+.product-info {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .product {
@@ -99,10 +100,17 @@ nav a:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.9s;
 }
-
-        .product:hover {
-            transform: scale(0.5);
+.product:hover {
+            transform: scale(1.20);
         }
+
+.product h3 {
+    color: #333;
+}
+
+.product p {
+    color: black;
+}
 
         footer {
             background-color: #333;

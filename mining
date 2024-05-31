@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Services Africa - ACOL Chemical</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: red;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+   
+       
+        
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+               
+#services {
+    text-align: center;
+    background-color: aqua;
+    color: #000;
+}
+
+.service h2 {
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.services-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+}
+
+.service {
+    flex: 0 0 42%;
+    margin: 20px;
+    padding: 20px;
+    background-color: #e6e6ee;
+    border-radius: 10px;
+    font-weight: 700;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.service h3 {
+    color: #333;
+}
+.service:hover {
+            transform: scale(1.05);
+        }
+
+.service p {
+    color: black;
+
+}
+
+#product-division {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            background-color: aquamarine;
+            background-image: url('agr.jpg');
+        }
+
+        .product {
+            flex: 0 0 30%;
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #f5f5f5;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            box-sizing: border-box;
+            transition: transform 0.3s;
+            text-align: left;
+        }
+
+        .product:hover {
+            transform: scale(1.05);
+        }
+
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .flex-container {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .list-item {
+      margin-bottom: 10px;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    #contacts {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contacts-section {
+    flex: 1;
+    margin: 0 20px;
+}
+
+h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #555;
+}
+
+.whatsapp-button {
+    background-color: #25D366;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+}
+marquee{
+      font-size: 30px;
+      font-weight: 400;
+      color: red;
+      font-family: sans-serif;
+      }
+
+
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Technical Services Africa</h1>
+        <p>Sales 0733422346/7/8/9  Agronomy +263 77 248 3952 & +263 78 430 7294</p>
+     
+       <p>Providing plant protection chemicals for a variety of agroindustries including tobacco, maize, sugar, horticulture, soya, paprika, cotton, wheat & barley, sorghum, and plantations.</p>
+       <a href="index.html">
+        <button>mainpage</button>
+    </a>
+    </header>
+    
+    <section id="services">
+        <h2>Services</h2></section>
+    <section id="services" class="services-container">
+    
+        <div class="service">
+            <h3>Reliability</h3>
+            <p>Free and reliable before and after-sales technical advice</p>
+            <p>Free and up-to-date agronomic advice</p>
+            <p>Free field visits</p>
+        </div>
+    
+        <div class="service">
+            <h3>FARMER SUPPORT</h3>
+            <p>Farmer liaison through field days,   in-house & on-farm training</p>
+            <p>Farmer training & awareness campaigns through print & electronic media</p>
+            <p>Free pamphlets and quick reference guide on agronomy and crop chemical use</p>
+        </div>
+        </div>
+    </section>
+    
+    <section id="product-division">
+        <h2>PRODUCTS</h2></section>
+    <section id="product-division">
+        <div class="product">
+            <h3>HERBISIDES</h3>
+      
+            <div class="flex-container">
+                <div class="list-item">Stellar Star</div>
+                <div class="list-item">Agil</div>
+                <div class="list-item">Basagran</div>
+                <div class="list-item">Glyphosate</div>
+                <div class="list-item">Halosulfuron</div>
+                <div class="list-item">ASSES</div>
+                <div class="list-item hidden">AMBUSH</div>
+                <div class="list-item hidden">Nicosulfuron</div>
+                <div class="list-item hidden">ATTRAZINE</div>
+                <div class="list-item hidden">MCPA</div>
+                <div class="list-item hidden">Ametryn</div>
+                <div class="list-item hidden">CLASSIC</div>
+                <div class="list-item hidden">ATTRAZINE</div>
+                <div class="list-item hidden">Dual Magnum</div>
+                <div class="list-item hidden">Metribuzin</div>
+                <div class="list-item hidden">Frontier Optima</div>
+
+                <button onclick="showMore()">Read More</button>
+              </div>
+
+      
+        </div>
+
+        <div class="product">
+            <h3>Insecticides</h3>
+            <div class="flex-container">
+                <div class="list-item">Abamectin</div>
+                <div class="list-item">Acolmiprid</div>
+                <div class="list-item">Acephate</div>
+                <div class="list-item">Chlorpyrifos</div>
+                <div class="list-item">Dichlorvos</div>
+                <div class="list-item">Lambda</div>
+                <div class="list-item hidden">Dash</div>
+                <div class="list-item hidden">Carbaryl</div>
+                <div class="list-item hidden">Decis Forte</div>
+                <div class="list-item hidden">Dimethoate</div>
+                <div class="list-item hidden">Tide plus</div>
+                <div class="list-item hidden">Super Dash</div>
+                <div class="list-item hidden">Belt</div>
+                <div class="list-item hidden">Imidacloprid</div>
+                <div class="list-item hidden">Aluminium Phosphide</div>
+                <div class="list-item hidden">Fenvelerate</div>
+                <button onclick="showMore()">Read More</button>
+              </div>
+        </div>
+
+        <div class="product">
+            <h3>Fungicides</h3>
+            <div class="flex-container">
+                <div class="list-item">Acomil</div>
+                <div class="list-item">Bion</div>
+                <div class="list-item">Chlorothalonil</div>
+                <div class="list-item">Copper Oxychloride</div>
+                <div class="list-item">Mancozeb</div>
+                <div class="list-item">Tebuconazole</div>
+                <div class="list-item hidden">Opera</div>
+                <div class="list-item hidden">Triadi menol/Shavit</div>
+                <div class="list-item hidden">Wettable Sulphur</div>
+                <div class="list-item hidden">sky</div>
+                <div class="list-item hidden">Flusilazole + Carbendazone</div>
+                <div class="list-item hidden">Benomyl</div> 
+                <div class="list-item hidden">****and may more......</div>
+
+                <button onclick="showMore()">Read More</button>
+              </div>
+        </div>
+
+        <div class="product">
+            <h3>Nematicides</h3>
+            <div class="flex-container">
+                <div class="list-item">Velum</div>
+                <div class="list-item">EDB</div>
+                <div class="list-item">Fenamiphos</div>
+                <div class="list-item hidden">Metham Sodium</div>
+                <div class="list-item hidden">Methyl bromide</div>
+                <button onclick="showMore()">Read More</button>
+              </div>
+        </div>
+        <div class="product">
+            <h3>Fumigants</h3>
+            <div class="flex-container">
+                <div class="list-item">Early seedbed covers</div>
+                <div class="list-item">Fumigation sheets-</div>
+                <div class="list-item">Fumigation sheets joining service</div>
+                <div class="list-item hidden">Nappy liners</div>
+                <div class="list-item hidden">Spider kits, pipes and tail pieces.</div>
+                <button onclick="showMore()">Read More</button>
+              </div>
+            
+            
+        </div>
+
+        <div class="product">
+            <h3>GROWTH REGULATORS</h3>
+            <div class="flex-container">
+                <div class="list-item">Accotab</div>
+                <div class="list-item">Gibberellic Acid</div>
+                <div class="list-item">N-Decanol</div>
+                <div class="list-item hidden">Suppress</div>
+                <div class="list-item hidden">Ethephone</div>
+                <button onclick="showMore()">Read More</button>
+              </div>
+        </div>
+        <marquee> <p>EDB Applicator - Stainless steel type..
+            EDB Applicator - Drum type...TSA WETTER...RIMGOLD...AMBUSH...ACCTELIC GOLD DUST...ROUND UP *******and may more</p></marquee>
+        
+       
+    
+    </section>
+
+    
+    <section id="contacts">
+        <div class="container">
+            <div class="contacts-section">
+                <h3>Technical and managers</h3>
+                <ul>
+                    <li>MR C Masvikeni +263 77 276 5967</li>
+                    <li>Mrs B Nhunzvi +263 77 248 3952 </li>
+                    <li>Mrs RHEEDER +263 77 224 7861</li>
+                    <li>IAN +263 77 224 7861</li>
+                </ul>
+            </div>
+
+    <div class="contacts-section">
+        <h3>Contact Details</h3>
+        <p>Acol chemical<br>
+            670 leyland Road<br>
+            New Ardbennie<br>
+           off Simon Mazorodze Road<br>
+            Harare, Zimbabwe</p>
+        <p>Acol chemical Bulawayo<br>
+            37 plumtree Road<br>
+            Bulawayo Zimbabwe
+        </p>
+    </div>
+
+    <div class="contacts-section">
+        <h3>SALES</h3>
+        <ul>
+            <li>Osca Chidangwara 0733422349 ..HRE</li>
+            <li>Washington Marova 0733422347 ..HRE</li>
+            <!-- Add more downloadable documents as needed -->
+            
+            <li>MODEIN BROWN +263 772483952..BYO</li>
+            <li>LIAM 0784307294 ...  BYO</li>
+            <li>COLLIN 0733422349 ... HRE</li>
+            
+        </ul>
+    </div>
+
+    <div class="contacts-section">
+        <h3>WhatsApp</h3>
+        <p>Contact Mrs Nasima Omar on WhatsApp:</p>
+        <a href="https://wa.me/263772200876" target="_blank" class="whatsapp-button">Message Now</a>
+        <a href="index.html">
+            <button>Back to mainpage</button>
+        </a>
+    </div>
+</div>
+
+
+
+&copy; 2024 Acol Chemical. All rights reserved.           &copy; by Mathew Shereni         
+
+</footer>
+  
+
+    </section>
+    <script>
+        function showMore() {
+          var hiddenItems = document.getElementsByClassName("hidden");
+          for (var i = 0; i < hiddenItems.length; i++) {
+            hiddenItems[i].style.display = "block";
+          }
+        }
+      </script>
+
+
+</body>
+
+</html>

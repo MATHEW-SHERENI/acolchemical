@@ -337,8 +337,25 @@ marquee{
         </div>
         <marquee> <p>EDB Applicator - Stainless steel type..
             EDB Applicator - Drum type...TSA WETTER...RIMGOLD...AMBUSH...ACCTELIC GOLD DUST...ROUND UP *******and may more</p></marquee>
-        
-       
+               <div class="promovideo">
+
+ <button onclick="showVideo()">PROMO SERVICE Video</button>
+
+  <div id="video-container" style="display: none;">
+    <video width="1000" height="360" controls>
+      <source src="agric.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <script>
+    function showVideo() {
+      var videoContainer = document.getElementById("video-container");
+      videoContainer.style.display = "block";
+    }
+  </script>
+           
+       </div>       
     
     </section>
 

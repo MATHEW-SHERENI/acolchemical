@@ -209,21 +209,7 @@ marquee{
     <section id="services">
         <h2>Services</h2></section>
     <section id="services" class="services-container">
-     <button onclick="showVideo()">Play Video</button>
-
-  <div id="video-container" style="display: none;">
-    <video width="640" height="360" controls>
-      <source src="miningvid.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-  </div>
-
-  <script>
-    function showVideo() {
-      var videoContainer = document.getElementById("video-container");
-      videoContainer.style.display = "block";
-    }
-  </script>
+    
         <div class="service">
             <h3>RELIABILITY</h3>
             <p>At Acol Chemical Mining Division, reliability is at the core of everything we do. We understand that dependable chemical solutions are crucial for the success and efficiency of your mining operations. Our products are rigorously tested and proven to perform consistently under the toughest conditions. We are committed to delivering on our promises, providing you with the highest quality chemicals, on time, every time. Trust Acol Chemical to be your steadfast partner, ensuring your mining processes run smoothly and efficiently.</p>
@@ -271,7 +257,25 @@ marquee{
         <marquee> <p> SULPHURIC ACID 98% - BULK - BORAX ANHYDROUS (DEHYBOR) - HYDROGEN PEROXIDE 50% - FORMIC ACID - FORMALDEHYDE 37/7 FORMALIN 
             and may more</p></marquee>
         
-       
+       <div class="promovideo">
+
+ <button onclick="showVideo()">Play Video</button>
+
+  <div id="video-container" style="display: none;">
+    <video width="640" height="360" controls>
+      <source src="miningvid.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <script>
+    function showVideo() {
+      var videoContainer = document.getElementById("video-container");
+      videoContainer.style.display = "block";
+    }
+  </script>
+           
+       </div>
     
     </section>
 
